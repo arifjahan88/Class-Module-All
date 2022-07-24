@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      :root {
+        --main-color: red;
+        --border-color: coral;
+        --background-color: blue;
+        --side-width: 200px;
+      }
+      header {
+        color: var(--main-color);
+      }
+      h2 {
+        background-color: var(--background-color);
+      }
+      footer {
+        border: 2px solid var(--border-color);
+        clear: both;
+      }
+      .side,
+      .blogs {
+        float: left;
+        height: 500px;
+      }
+      aside {
+        background-color: blueviolet;
+        width: var(--side-width);
+      }
+      .blogs {
+        background-color: tomato;
+        width: calc(100% - 2 * var(--side-width));
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Welcome to my Website</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus ea
+        distinctio odit porro minima culpa quidem, eos consequatur sint,
+        delectus autem enim cupiditate nihil a. Impedit aliquam animi molestias
+        tenetur.
+      </p>
+    </header>
+    <main>
+      <h2>Let's Start</h2>
+      <h6>nothing</h6>
+      <section>
+        <aside class="side">my side nevigation</aside>
+        <div class="blogs">
+          <h3>Blogs</h3>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p>All rights resarverd</p>
+    </footer>
+  </body>
+</html>

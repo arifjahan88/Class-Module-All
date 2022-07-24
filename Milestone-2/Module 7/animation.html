@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Animation</title>
+  </head>
+  <style>
+    /* @keyframes sliding {
+      from {
+        background-color: coral;
+        left: 0;
+      }
+      to {
+        background-color: pink;
+        left: 400px;
+      }
+    } */
+    @keyframes sliding {
+      0% {
+        background-color: coral;
+        left: 0;
+        top: 0;
+      }
+      50% {
+        top: 400px;
+      }
+      100% {
+        background-color: pink;
+        left: 400px;
+        top: 0;
+      }
+    }
+    .stage {
+      width: 500px;
+      height: 500px;
+      background-color: cornflowerblue;
+    }
+    .ball {
+      width: 100px;
+      height: 100px;
+      position: relative;
+      border-radius: 50%;
+      background-color: brown;
+      animation: sliding 1s ease-in-out 0.5s infinite alternate;
+      animation-play-state: running;
+    }
+  </style>
+  <body>
+    <h1>This is animation website</h1>
+    <div class="stage">
+      <div class="ball"></div>
+    </div>
+  </body>
+</html>

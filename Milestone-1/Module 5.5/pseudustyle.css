@@ -1,0 +1,13 @@
+div{
+    border: 1px dashed red;
+    width: 200px;
+}
+#ring{
+    position: sticky;
+    top: 0px;
+}
+.dummy{
+    width: 100px;
+    height: 150px;
+    background-color: coral;
+}

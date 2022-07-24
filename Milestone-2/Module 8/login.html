@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Log in</title>
+    <script
+      src="https://kit.fontawesome.com/d9c423d149.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <style>
+    h2 {
+      text-align: center;
+    }
+    .full-container {
+      display: flex;
+      justify-content: center;
+      margin-top: 50px;
+    }
+    .login-form {
+      display: flex;
+      flex-direction: column;
+      width: 40%;
+    }
+    .login-form input {
+      margin-top: 5px;
+      font-size: 20px;
+      padding: 5px 10px;
+    }
+    .login-form input[type="button"] {
+      background-color: goldenrod;
+      border: 0;
+      border-radius: 5px;
+      font-weight: 700;
+      color: whitesmoke;
+    }
+    nav a {
+      text-decoration: none;
+      color: black;
+      margin-right: 20px;
+    }
+    nav {
+      display: flex;
+      justify-content: space-between;
+    }
+  </style>
+  <body>
+    <header>
+      <nav>
+        <span>
+          <a href="#">Home</a>
+          <a href="#">Dashboard</a>
+          <a href="#">Gallery</a>
+          <a href="#">About us</a>
+        </span>
+        <span>
+          <a href="#"><i class="fa-solid fa-user"></i> Login</a>
+          <a href="#"><i class="fa-solid fa-right-to-bracket"></i> Logout</a>
+        </span>
+      </nav>
+    </header>
+    <section class="full-container">
+      <form class="login-form">
+        <h2>Login form</h2>
+        <input type="email" name="" id="" placeholder="Your email" required />
+        <input
+          type="password"
+          name=""
+          id=""
+          placeholder="Your password"
+          required
+        />
+        <input type="button" value="Login" />
+      </form>
+    </section>
+  </body>
+</html>

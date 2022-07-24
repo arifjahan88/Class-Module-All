@@ -1,0 +1,35 @@
+h1{
+    background-color: blueviolet;
+    display: inline;
+}
+span{
+    background-color: blue;
+    display: block;
+}
+p{
+    background-color: cyan;
+}
+div{
+    background-color: aquamarine;
+    width: 300px;
+    height: 200px;
+    display: inline-block;
+}
+.middle:focus{
+    color: red;
+    background-color: aqua;
+}
+a:visited{
+    color: black;
+}
+li:nth-child(2n+1){
+    background-color: aquamarine;
+}
+h2:hover{
+    font-size: 30px;
+    color: antiquewhite;
+    background-color: coral;
+}
+li::before{
+    content: 'Arif Jahan ';
+}

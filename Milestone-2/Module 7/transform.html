@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Transform</title>
+    <style>
+      .container,
+      .inner {
+        height: 200px;
+        width: 200px;
+        border: 2px solid coral;
+      }
+      .container {
+        background-color: tomato;
+      }
+      .inner {
+        background-color: aquamarine;
+        /* transform: scale(0.5); */
+        /* transform: rotate(45deg); */
+        transform: translate(200px, 100px) scale(0.5) rotate(45deg);
+      }
+    </style>
+  </head>
+  <body>
+    <h1>This is transform website.</h1>
+    <div class="outer container">
+      <div class="inner">Box - 1</div>
+    </div>
+    <div class="outer container">
+      <div class="inner">Box - 2</div>
+    </div>
+    <div class="outer container">
+      <div class="inner">Box - 3</div>
+    </div>
+  </body>
+</html>
