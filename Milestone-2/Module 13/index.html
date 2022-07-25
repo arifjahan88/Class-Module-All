@@ -9,11 +9,14 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
     />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="CSS/style.css">
+    <!-- Font Awsome Link -->
     <script src="https://kit.fontawesome.com/d9c423d149.js" crossorigin="anonymous"></script>
   </head>
   <body>
     <header class="container">
-      <nav class="navbar navbar-expand-lg bg-light">
+      <nav class="navbar navbar-expand-lg fixed-top bg-light">
         <div class="container">
           <a class="navbar-brand" href="#"
             ><img src="images/logo.png" alt=""
@@ -35,20 +38,26 @@
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Product</a>
+                <a class="nav-link" href="#shoes">Shoes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#backpacks">Backpacks</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#products">Product</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">About Us</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contact Us</a>
+                <a class="nav-link" href="#subscribe">Contact Us</a>
               </li>
             </ul>
           </div>
         </div>
       </nav>
       <!-- Banner Section Starts Here -->
-      <section class="bg-info mt-5 border rounded-4">
+      <section class="bg-info-custom mt-3 border rounded-4">
         <div
           id="carouselExampleControls"
           class="carousel slide"
@@ -65,7 +74,7 @@
                       just want to waste time in front of funky world.
                     </p>
                     <h1>$420</h1>
-                    <div class="btn btn-danger">Buy Now</div>
+                    <div class="btn btn-danger-custom">Buy Now</div>
                   </div>
                 </div>
                 <div class="col-lg-5">
@@ -87,7 +96,7 @@
                       just want to waste time in front of funky world.
                     </p>
                     <h1>$1200</h1>
-                    <div class="btn btn-danger">Buy Now</div>
+                    <div class="btn btn-danger-custom">Buy Now</div>
                   </div>
                 </div>
                 <div class="col-lg-5">
@@ -109,7 +118,7 @@
                       want to waste time in front of fake sports.
                     </p>
                     <h1>$600</h1>
-                    <div class="btn btn-danger">Buy Now</div>
+                    <div class="btn btn-danger-custom">Buy Now</div>
                   </div>
                 </div>
                 <div class="col-lg-5">
@@ -147,10 +156,10 @@
 
     <main>
       <!-- Catagories Part Start Here -->
-      <section>
+      <section id="products">
         <div>
           <div class="container text-center my-5">
-            <div class="row g-2">
+            <div class="row g-4 product-catagories">
               <div class="col-lg-4 col-md-6 col-sm-12">
                 <div
                   class="p-3 border bg-success d-flex align-items-center justify-content-around rounded-4"
@@ -181,7 +190,7 @@
       </section>
       <!-- Catagories Part End Here -->
       <!-- Shoes Section Starts Here -->
-      <section class="container my-5">
+      <section class="container my-5" id="shoes">
         <h1>Shoes</h1>
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
           <div class="col">
@@ -200,7 +209,7 @@
                 <h5>$120</h5>
               </div>
               <div class="m-4">
-                <button type="button" class="btn btn-danger btn-lg">Buy Now <i class="fa-solid fa-angles-right"></i></button>
+                <button type="button" class="btn btn-danger-custom btn-lg">Buy Now <i class="fa-solid fa-angles-right"></i></button>
               </div>
             </div>
           </div>
@@ -220,7 +229,7 @@
                 </p>
               </div>
               <div class="m-4">
-                <button type="button" class="btn btn-danger btn-lg">Buy Now <i class="fa-solid fa-angles-right"></i></button>
+                <button type="button" class="btn btn-danger-custom btn-lg">Buy Now <i class="fa-solid fa-angles-right"></i></button>
               </div>
             </div>
           </div>
@@ -239,7 +248,7 @@
                 <h5>$350</h5>
               </div>
               <div class="m-4">
-                <button type="button" class="btn btn-danger btn-lg">Buy Now <i class="fa-solid fa-angles-right"></i></button>
+                <button type="button" class="btn btn-danger-custom btn-lg">Buy Now <i class="fa-solid fa-angles-right"></i></button>
               </div>
             </div>
           </div>
@@ -247,7 +256,7 @@
       </section>
       <!-- Shoes Section Ends Here -->
       <!-- Backpack Section Start here -->
-      <section class="container my-5">
+      <section class="container my-5" id="backpacks">
         <h1>Backpack</h1>
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
           <div class="col">
@@ -265,7 +274,7 @@
                 </p>
               </div>
               <div class="m-4">
-                <button type="button" class="btn btn-danger btn-lg">Buy Now <i class="fa-solid fa-angles-right"></i></button>
+                <button type="button" class="btn btn-danger-custom btn-lg">Buy Now <i class="fa-solid fa-angles-right"></i></button>
               </div>
             </div>
           </div>
@@ -285,7 +294,7 @@
                 </p>
               </div>
               <div class="m-4">
-                <button type="button" class="btn btn-danger btn-lg">Buy Now <i class="fa-solid fa-angles-right"></i></button>
+                <button type="button" class="btn btn-danger-custom btn-lg">Buy Now <i class="fa-solid fa-angles-right"></i></button>
               </div>
             </div>
           </div>
@@ -304,14 +313,32 @@
                 </p>
               </div>
               <div class="m-4">
-                <button type="button" class="btn btn-danger btn-lg">Buy Now <i class="fa-solid fa-angles-right"></i></button>
+                <button type="button" class="btn btn-danger-custom btn-lg">Buy Now <i class="fa-solid fa-angles-right"></i></button>
               </div>
             </div>
           </div>
         </div>
       </section>
       <!-- Backpack Section Ends here -->
+      <!-- Form Section Start Here -->
+      <section class="container d-flex justify-content-center bg-info-custom align-items-center rounded-4" style="height: 300px;" id="subscribe">
+        <div>
+          <h2>LET'S STAY IN TOUCH</h2>
+        <p class="m-0">Get updates on sales, specials and more</p>
+        <form>
+          <div class="mb-3">
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            
+          </div>
+          <button type="submit" class="btn btn-danger-custom">Submit</button>
+        </form>
+        </div>
+      </section>
+      <!-- Form Section Ends Here -->
     </main>
+    <footer class="container text-center mt-5">
+      <small>©2020. Panda Commerce. All rights reserved. Sofia, Bulgaria.</small>
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
