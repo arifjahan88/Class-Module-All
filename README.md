@@ -18,3 +18,6 @@
 
 # Panda-e-commerce-website
 https://arifjahan88.github.io/Class-Module-All/Milestone-2/Module%2013/Panda-E-comerce/
+
+# Penguin-Fasion
+https://arifjahan88.github.io/Class-Module-All/Milestone-2/Module%2014/Penguin-Fasion-tailwind/
