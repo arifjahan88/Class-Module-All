@@ -14,3 +14,4 @@ var num2 = 0.2;
 total = num1 + num2;
 total = total.toFixed(2);
 console.log(total);
+
