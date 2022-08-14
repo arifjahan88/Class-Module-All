@@ -7,8 +7,13 @@ function removedublicate(names){
         }
     }
     return unique;
-
 }
 
-const myarray = ['rofik', 'jobbar', 'kuddus', 'mofiz', 'kuddus', 'korim', 'rofik'];
+const myarray = ['rofik', 
+                'jobbar', 
+                'kuddus', 
+                'mofiz', 
+                'kuddus', 
+                'korim', 
+                'rofik'];
 console.log(removedublicate(myarray));
