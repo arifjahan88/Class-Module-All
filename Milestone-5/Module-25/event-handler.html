@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Event handler</title>
+  </head>
+  <body>
+    <h1>final dom event handler</h1>
+    <h3 id="click-text">default text</h3>
+    <button onclick="eventonclick()">handle event by on click</button>
+    <button id="event-listener">handle event by addeventlistener</button>
+    <script>
+      function eventonclick() {
+        const handlerstatus = document.getElementById("click-text");
+        handlerstatus.innerText = "This is when i clicked the button.";
+      }
+      //Another option event listener
+      document
+        .getElementById("event-listener")
+        .addEventListener("click", function () {
+          const handlerstatus = document.getElementById("click-text");
+          handlerstatus.innerText = "Updated ecent listener when i clicked";
+        });
+    </script>
+  </body>
+</html>

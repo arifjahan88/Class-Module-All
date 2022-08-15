@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dom</title>
+  </head>
+  <style>
+    h1 {
+      color: burlywood;
+    }
+    ul {
+      color: coral;
+    }
+    .imp-place {
+      color: blue;
+    }
+  </style>
+  <body>
+    <header>
+      <h1>Welcome to my Dom.</h1>
+      <h1>My dom project is awsome.</h1>
+    </header>
+    <main>
+      <section>
+        <ul>
+          <li>jalali set</li>
+          <li>apn sen</li>
+          <li>dom dom</li>
+          <li>dom domd dom</li>
+          <li>dom dom</li>
+        </ul>
+      </section>
+      <section>
+        <h1>Froits i like</h1>
+        <ul id="fruits-like">
+          <li>apple</li>
+          <li>Komola</li>
+          <li>Anarosh</li>
+        </ul>
+      </section>
+      <section>
+        <h1>places i like</h1>
+        <ul>
+          <li class="imp-place">sundorbon</li>
+          <li class="imp-place">katabon</li>
+          <li>kolabagan</li>
+        </ul>
+      </section>
+    </main>
+    <script src="dom.js"></script>
+    <script src="styledom.js"></script>
+    <script>
+      //   console.log("inside html");
+      const licollection = document.getElementsByTagName("li");
+      for (const li of licollection) {
+        // console.log(li.innerText);
+      }
+
+      const headings = document.getElementsByTagName("h1");
+      for (const header of headings) {
+        // console.log(header.innerText);
+      }
+      const fruits = document.getElementById("fruits-like");
+      // console.log(fruits.innerText);
+
+      const place = document.getElementsByClassName("imp-place");
+      for (const places of place) {
+        // console.log(places.innerText);
+      }
+      const importantplace = document.querySelectorAll(".imp-place");
+      for (const places2 of importantplace) {
+        // console.log(places2.innerText);
+      }
+    </script>
+  </body>
+</html>
