@@ -36,8 +36,8 @@ document.getElementById('btn-case-minus').addEventListener('click', function(){
 
 document.getElementById('clear2').addEventListener('click', function(){
     const phonenumberfield = document.getElementById('case-number-field');
-    phonenumberfield.value = '';
+    phonenumberfield.value = '1';
 
     const phonetotalclear = document.getElementById('case-total');
-    phonetotalclear.innerText = '';
+    phonetotalclear.innerText = '1';
 })
