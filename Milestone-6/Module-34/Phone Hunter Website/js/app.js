@@ -103,4 +103,4 @@ const displayphonedetails = phone =>{
     `;
 }
 
-// loadphones('apple');
+// loadphones(phone);
