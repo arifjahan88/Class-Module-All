@@ -92,7 +92,6 @@ const loadphonedetails = async id =>{
 }
 
 const displayphonedetails = phone =>{
-    console.log(phone);
     const modaltitle = document.getElementById('phonedetailsmodalLabel');
     modaltitle.innerText = phone.name;
     const modal_body = document.getElementById('modalbody');
