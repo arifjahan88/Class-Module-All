@@ -1,0 +1,20 @@
+.div-containers{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    
+}
+
+.country-div{
+    background-color: rgb(192, 214, 255);
+    border: 2px solid tan;
+    border-radius: 10px;
+    padding: 10px;
+    
+}
+.country-div img{
+    width: 200px;
+}
+.country-div h2{
+    color: red;
+}
